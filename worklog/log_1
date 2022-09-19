@@ -8,4 +8,4 @@ Part - 1
 - Create folder and Django app for the core views (apps/core)
 	- Create the base template
 - Create view for the frontpage and a very basic template
-- Check that everything is working
+- Check that everything is workingsadf
