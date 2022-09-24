@@ -19,7 +19,7 @@
 - DONE Set document title (All pages)
 - DONE Make it possible to view a category
 	- Convert the product to a component
-- Add search functionality
+- DONE Add search functionality
 - View cart
 	- A cart item should be a component
 - Change contents of cart
