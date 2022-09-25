@@ -22,10 +22,21 @@
 - DONE Add search functionality
 - DONE View cart
 	- A cart item should be a component
-- Change contents of cart
+- DONE Change contents of cart
 	- Increment/Decrement content
 	- Remove from cart
 - Make it possible to sign up
 - Make it possible to log in
 - Create a simple my account page
 - Proceed to checkout (Authentication)
+- Create a simple my account page
+- Show my orders on the my account page
+	- An order should be a component
+- Deploy Django
+	- Create a server and access it
+	- Install software
+	- Create postgres database
+	- Create users and virtual environment
+	- Install packages and get project files
+	- Create seperate settingsfile for production
+	
