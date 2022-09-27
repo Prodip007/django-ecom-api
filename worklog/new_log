@@ -27,7 +27,7 @@
 	- Remove from cart
 - DONE Make it possible to sign up
 - DONE Make it possible to log in
-- Create a simple my account page
+- DONE Create a simple my account page
 - Proceed to checkout (Authentication)
 - Create a simple my account page
 - Show my orders on the my account page
@@ -39,4 +39,7 @@
 	- Create users and virtual environment
 	- Install packages and get project files
 	- Create seperate settingsfile for production
+	- Set up gunicorn
+	- Set up supervisor
+	- Obtain SSL certificate
 	
