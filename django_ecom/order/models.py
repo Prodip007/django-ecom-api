@@ -16,10 +16,10 @@ class Order(models.Model):
     phone = models.CharField(max_length=100)
     created_at = models.DateField(auto_now_add=True)
     paid_amount = models.DecimalField(max_digits=8, decimal_places=2, blank=True, null=True)
-    strip_token = models.CharField(max_length=100)
+    stripe_token = models.CharField(max_length=100)
 
     class Meta:
-        ordering = ['-created_at']
+        ordering = ['-created_at',]
 
     def __str__(self):
         return self.first_name    
@@ -28,7 +28,7 @@ class OrderItem(models.Model):
     Order = models.ForeignKey(Order, related_name='items', on_delete=models.CASCADE)
     product = models.ForeignKey(Product, related_name='items', on_delete=models.CASCADE)
     price = models.DecimalField(max_digits=8, decimal_places=2)
-    qunatity = models.IntegerField(default=1)
+    quantity = models.IntegerField(default=1)
 
     def __str__(self):
         return '%s' % self.id
